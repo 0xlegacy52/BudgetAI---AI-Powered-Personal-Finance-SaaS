@@ -6,7 +6,7 @@ BudgetAI is a full-stack personal finance application that uses AI to analyze sp
 ## Tech Stack
 - **Frontend**: React 19 + TypeScript + Vite + Tailwind CSS v4 + shadcn/ui components
 - **Backend**: Express 5 + TypeScript (tsx runtime)
-- **Database**: PostgreSQL (Replit built-in)
+- **Database**: PostgreSQL
 - **AI**: OpenAI GPT-4o (optional - falls back to built-in analytics)
 - **Charts**: Recharts
 - **State Management**: TanStack React Query
@@ -83,7 +83,7 @@ BudgetAI is a full-stack personal finance application that uses AI to analyze sp
 - Dashboard with charts (bar chart, donut chart, budget progress)
 
 ## Environment Variables
-- DATABASE_URL (auto-set by Replit)
+- DATABASE_URL 
 - OPENAI_API_KEY (optional - for enhanced AI features)
 
 ## Commands
